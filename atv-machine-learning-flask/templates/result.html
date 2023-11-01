@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fake News Detector</h1>
+    <p>Título inserido: {{ title }}</p>
+    {% if prediction is defined %}
+    <p>Probabilidade de ser uma fake news: {{ prediction * 100 | round(2) }}%</p>
+    {% endif %}
+    <a href="/">Voltar</a>
+</body>
+</html>
