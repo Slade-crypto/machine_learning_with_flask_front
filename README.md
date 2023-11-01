@@ -10,12 +10,3 @@ Esta aplicação consiste em dois componentes principais:
 
 2. Um aplicativo web Flask que permite aos usuários inserir um título e obter uma previsão de probabilidade de ser uma notícia falsa com base nos modelos treinados.
 
-## Como Executar a Aplicação
-
-Siga as instruções abaixo para executar a aplicação em sua máquina local:
-
-### Pré-requisitos
-
-- Python 3.x instalado em sua máquina.
-
-
